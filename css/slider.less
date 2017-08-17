@@ -1,0 +1,156 @@
+// main slider
+
+.slider-items {
+  position: relative;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30vw;
+  overflow: hidden;
+  img {
+  	position: absolute;
+  	z-index: -1;
+  	width: 100%;
+  	height: 100%;
+  }
+  .card-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+
+    .border {
+  	  height: 2px;
+  	  width: 66px;
+  	  background: #fff;
+  	  margin-bottom: 24px;
+    }
+    h2 {
+  	  text-transform: uppercase;
+  	  font-size: 24px;
+  	  margin-bottom: 21px;
+  	  span {
+  	    font-size: 30px;
+  	  }
+    }
+    span {
+  	  text-transform: uppercase;
+  	  font-size: 14px;
+    }
+  }
+}
+
+.slick-prev:before, .slick-next:before {
+    content: '';
+}
+
+.slick-prev, .slick-next {
+    width: 15px;
+    height: 28px;
+}
+
+.slick-prev, .slick-prev:focus, .slick-prev:active, .slick-prev:hover, {
+  background-image: url(../images/arrow-right.png);
+  left: 17%;
+  z-index: 1;
+}
+
+.slick-next, .slick-next:focus, .slick-next:active, .slick-next:hover, {
+  background-image: url(../images/arrow-left.png);
+  right: 17%;
+  z-index: 1;
+}
+
+.slick-dots {
+	bottom: 30px;
+}
+
+.slick-dots li button, .slick-dots li button:before {
+    font-size: 6px;
+    line-height: 20px;
+    top: 0;
+    left: 0;
+    width: 17px;
+    height: 17px;
+    content: '';
+    opacity: 1;
+    border-radius: 50%;
+    border-color: #fff;
+    border-width: 3px;
+    border-style: solid;
+    box-sizing: border-box;
+}
+
+.slick-dots li button:hover, .slick-dots li button:focus, 
+.slick-dots li button:active {
+  background-color: #fff;
+}
+
+.slick-dots li.slick-active button:before {
+    opacity: 1;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+
+// Brands slider
+
+.section-brands {
+  .slider-container {
+    position: relative;
+    height: 141px;
+    background-image: url("../images/brands-bg.jpg");
+    background-size: cover;
+    margin-top: 24px;
+    .slider-bg {
+      position: absolute;
+      z-index: -1;
+      top: 0;
+    }
+  }
+  .brand-items {
+    max-width: 208px;
+    padding: 0 14px;
+    box-sizing: border-box;
+  }
+
+  .slider-brands {
+    height: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .slick-slider .slick-track, .slick-slider .slick-list {
+    display: flex;
+    align-items: flex-end;
+
+  }
+  .slick-slider .slick-list {
+    height: 100%;
+    padding-bottom: 42px;
+    box-sizing: border-box;
+  }
+  
+  .slick-prev, .slick-prev:focus, .slick-prev:active, .slick-prev:hover {
+    left: 0;
+  }
+  
+  .slick-prev, .slick-prev:focus, .slick-prev:active, .slick-prev:hover, 
+  .slick-next, .slick-next:focus, .slick-next:active, .slick-next:hover {
+    top: 63%;
+    background-image: url(../images/left-arrow.png);
+    width: 11px;
+    height: 20px;
+  }
+
+  .slick-next, .slick-next:focus, .slick-next:active, .slick-next:hover {
+    right: 0;
+    background-image: url(../images/right-arrow.png);
+  }
+}
+
+
+
+

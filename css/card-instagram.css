@@ -1,0 +1,20 @@
+.instagram-container {
+  margin: 24px -12px;
+}
+.instagram-container .card-instagram {
+  padding: 12px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.instagram-container .card-instagram .card-title {
+  margin-bottom: 10px;
+}
+.instagram-container .card-instagram .card-form input {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 5px;
+  border: none;
+}
+.instagram-container .persent-size {
+  width: 33.3%;
+}
