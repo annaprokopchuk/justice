@@ -204,15 +204,15 @@
   top: 0;
 }
 .section-brands .brand-items {
-  max-width: 208px;
-  padding: 0 14px;
+  width: 182px;
+  padding: 0 20px;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 .section-brands .slider-brands {
   height: 100%;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 .section-brands .slick-slider .slick-track,
 .section-brands .slick-slider .slick-list {
