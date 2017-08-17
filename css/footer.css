@@ -35,6 +35,9 @@
 .footer-items .social-icons li {
   padding: 0 10px;
 }
+.footer-items .card-title h4 {
+  color: #000;
+}
 .footer-container {
   display: -webkit-box;
   display: -webkit-flex;

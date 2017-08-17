@@ -349,15 +349,16 @@
   background-color: #898989;
   color: #000;
 }
-.instagram-container {
+.grid {
   margin: 24px -12px;
 }
-.instagram-container .card-instagram {
+.grid .card-instagram {
   padding: 12px;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
+  width: 33.3%;
 }
-.instagram-container .card-instagram .card-form {
+.grid .card-instagram .card-form {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -372,7 +373,7 @@
   align-items: center;
   border-bottom: 1px solid #000;
 }
-.instagram-container .card-instagram .card-form input {
+.grid .card-instagram .card-form input {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   padding: 5px;
@@ -380,18 +381,18 @@
   font: 300 16px 'OpenSansLight-Italic', sans-serif;
   width: 200px;
 }
-.instagram-container .card-instagram .card-form .sabmit {
+.grid .card-instagram .card-form .sabmit {
   color: #000;
   font: 700 14px 'OpenSans-Bold', sans-serif;
   font-size: 16px;
 }
-.instagram-container .card-instagram .card-form .sabmit:hover {
+.grid .card-instagram .card-form .sabmit:hover {
   color: #898989;
 }
-.instagram-container .persent-size {
+.grid .persent-size {
   width: 33.3%;
 }
-.instagram-container .card-title {
+.grid .card-title {
   margin-bottom: 10px;
   font: 700 14px 'OpenSans-Bold', sans-serif;
   font-size: 16px;
@@ -438,6 +439,9 @@
 }
 .footer-items .social-icons li {
   padding: 0 10px;
+}
+.footer-items .card-title h4 {
+  color: #000;
 }
 .footer-container {
   display: -webkit-box;
@@ -578,6 +582,15 @@ img {
 }
 ul {
   padding-left: 0;
+}
+.grid {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 /*# sourceMappingURL=main.css.map */

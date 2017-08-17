@@ -22,11 +22,16 @@ $(document).ready(function () {
   }
 })
 
+
+
 jQuery(document).ready(function($) {
-    $('.instagram-container').masonry({
+    var $grid = $('.grid').masonry({
         // options
         itemSelector: '.card-instagram',
         columnWidth: '.persent-size',
         percentPosition: true
+    });
+    $grid.imagesLoaded().progress(function() {
+    	$grid.masonry();
     });
 });
