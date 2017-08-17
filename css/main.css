@@ -398,6 +398,10 @@
   color: #000;
   text-transform: uppercase;
 }
+.grid-sizer {
+  padding: 14px 14px;
+  width: 33.333%;
+}
 .footer-items svg {
   height: 18px;
   width: 23px;
